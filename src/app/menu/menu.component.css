@@ -1,0 +1,13 @@
+.title{
+  color: white;
+  text-align: center;
+
+}
+
+.random{
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}

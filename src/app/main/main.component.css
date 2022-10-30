@@ -1,0 +1,100 @@
+main{
+  background-color: orange;
+  min-height: 70vh;
+  padding: 2px;
+}
+
+.number{
+  display: inline;
+}
+
+
+.button{
+  padding: 30px;
+  color: orange;
+  background-color: white;
+  border-color: orange;
+  border: 10px solid orange;
+  font-size: 40px;
+  margin-left: 90px;
+}
+
+.button2{
+  padding: 30px;
+  color: orange;
+  background-color: white;
+  border-color: orange;
+  border: 10px solid orange;
+  font-size: 40px;
+  display: inline;
+  margin-left: 10px;
+}
+
+.button3{
+  padding: 30px;
+  color: orange;
+  background-color: white;
+  border-color: orange;
+  border: 10px solid orange;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.number{
+  padding: 30px;
+  color: white;
+  font-size: 40px;
+}
+
+.tasks{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.task{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.padre{
+  display: flex;
+  margin-bottom: 80px;
+}
+
+input{
+  padding: 10px;
+  border: 3px solid orange;
+  color: white;
+  background-color: rgb(251, 223, 167);
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+
+.item{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item__button{
+  padding: 30px;
+  color: orange;
+  background-color: white;
+  border-color: orange;
+  border: 10px solid orange;
+  font-size: 40px;
+  margin-left: 30px;
+  display: flex;
+  margin-right: 150px;
+
+}
+
+#item__input{
+  margin-left:50px;
+}
+
+::placeholder {
+  color: orange;
+  text-align: center;
+}

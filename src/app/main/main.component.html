@@ -1,0 +1,29 @@
+
+<main>
+<div class="padre">
+<ul class="tasks">
+<li  *ngFor="let list of List;let index =index" >
+  <input type="text" [(ngModel)]="list.title">
+  <button class="button" (click)="changeCounter(list, list.counter -1)"><</button>
+  <p class="number">{{list.counter}}</p>
+  <button class= "button2" (click)="changeCounter(list, list.counter +1)">></button>
+  <button class= "button3" (click)="deleteTarea()">X</button>
+</li>
+</ul>
+</div>
+
+
+
+<!-- <p *ngIf ="number > 10">"Has ganado"</p>
+<p *ngIf ="number <= 0">"Has perdido"</p> -->
+
+  <div class="item">
+    <input id="item__input" type= "text" [(ngModel)]= "nuevaTarea" placeholder="Add New Event">
+    <button class="item__button" (click)="newTarea(nuevaTarea)">Add New Event</button>
+
+   </div>
+
+</main>
+
+
+
